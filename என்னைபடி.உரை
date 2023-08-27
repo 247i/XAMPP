@@ -1,5 +1,5 @@
 # ௐஅமபிபி
-###### ApacheFriends XAMPP Version 8.2.4 ######
+###### ApacheFriends ௐஅமபிபி 8.2.4 ######
  
 Note: The Portable Version does not contain the FileZilla FTP and the Mercury Mail Server. The service installations are also disabled here.
 
@@ -98,6 +98,15 @@ Attention : If XAMPP is installed in a base directory with spaces (e.g. c:\progr
 
    User: xampp-dav-unsecure
    Password: ppmax2011
+
+Attention: WEBDAV is not active since XAMPP Version 1.7.4.
+   For activation please comment out the httpd-dav.conf and
+   following modules in the httpd.conf
+   
+   LoadModule dav_module modules/mod_dav.so
+   LoadModule dav_fs_module modules/mod_dav_fs.so  
+   
+   Please do not forget to refresh the WEBDAV authentification (users and passwords).     
 
 ---------------------------------------------------------------
 
