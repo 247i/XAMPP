@@ -165,5 +165,3 @@ After changing the password you'll have to reconfigure phpMyAdmin to use the new
 So first the 'root' password is queried by the MySQL server, before phpMyAdmin may access.
 
 ---------------------------------------------------------------
-
-		Have a lot of fun! | Viel Spaß! | Bonne Chance!
